@@ -49,6 +49,7 @@
     width: 55%; 
     height: 100%;
   }
+  
   .blue-column  #bg img {
     position: absolute; 
     top: 0; 
@@ -99,6 +100,7 @@ body {
   position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
+  border: 2.5px solid #756300;
 }
 
 .list-item:hover {
@@ -132,7 +134,7 @@ body {
   top: 0;
   width: 5px;
   height: 100%;
-  background-color: #fbff0b;
+  background-color: #756300;
   transition: all 0.3s ease;
 }
 
