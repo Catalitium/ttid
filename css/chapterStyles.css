@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Garamond";
-    background-color:wheat;
+    background-color:#cccccc;
     }
   
   /* Create two equal columns that floats next to each other */
@@ -28,12 +28,16 @@
     font-size: 3.2rem;
     color: cornflowerblue;
     line-height: 75px;
+    font-style: italic;
+    text-align: center;
    /* Should be removed. Only for demonstration */
   }
 
   .columnRight p{
     font-size: 1.2rem;
     color: rgb(108, 140, 199);
+    font-style: italic;
+    text-align: center;
    /* Should be removed. Only for demonstration */
   }
 
@@ -49,7 +53,7 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     border-style: solid;
-    border: 5px solid thistle;
+    border: 5px solid #fed700;
      /* Should be removed. Only for demonstration */
   }
   
@@ -61,7 +65,7 @@
   }
 
   .button {
-    background-color: thistle;
+    background-color: #fed700;
     border: none;
     color: white;
     padding: 15px 32px;
