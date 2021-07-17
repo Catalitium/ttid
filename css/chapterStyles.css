@@ -26,7 +26,7 @@
 
   .columnRight h2{
     font-size: 3.2rem;
-    color: cornflowerblue;
+    color: rgb(55, 115, 226);
     line-height: 75px;
     font-style: italic;
     text-align: center;
@@ -65,9 +65,9 @@
   }
 
   .button {
-    background-color: #fed700;
+    border: 2.5px solid #8d7906;
     border: none;
-    color: white;
+    color: #cccccc;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
