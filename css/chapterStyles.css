@@ -1,0 +1,74 @@
+
+  @font-face {
+    font-family: 'Garamond';
+    src: url(../fonts/Garamond.ttf); }
+  
+  /* Colors */
+  /* Universal style */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Garamond";
+    background-color:wheat;
+    }
+  
+  /* Create two equal columns that floats next to each other */
+  .columnRight {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 32px;
+   /* Should be removed. Only for demonstration */
+  }
+
+  .columnRight h2{
+    font-size: 3.2rem;
+    color: cornflowerblue;
+    line-height: 75px;
+   /* Should be removed. Only for demonstration */
+  }
+
+  .columnRight p{
+    font-size: 1.2rem;
+    color: rgb(108, 140, 199);
+   /* Should be removed. Only for demonstration */
+  }
+
+  .columnLeft {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    line-height: 32px;
+   /* Should be removed. Only for demonstration */
+  }
+  
+  .columnLeft img{
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-style: solid;
+    border: 5px solid thistle;
+     /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .button {
+    background-color: thistle;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

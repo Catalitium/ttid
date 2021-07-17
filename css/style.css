@@ -1,0 +1,142 @@
+/*
+ * Author by Catalitium
+ * URL: https://catalitium.netlify
+ */
+/* Fonts */
+@font-face {
+  font-family: 'Garamond';
+  src: url(../fonts/Garamond.ttf); }
+
+/* Colors */
+/* Universal style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Garamond"; }
+
+  .some-page-wrapper {
+    margin: 15px;
+    background-color: None;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .blue-column {
+    background-image: url("/images/ttid.jpg");
+
+  }
+  
+  .green-column {
+    background-color: rgb(29, 29, 29);
+  }
+
+  .blue-column #bg {
+    position: fixed; 
+    top: -5%; 
+    left: -5%; 
+    width: 55%; 
+    height: 100%;
+  }
+  .blue-column  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+  
+ul,ol {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+}
+
+.title {
+  color: #FFF;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #FFF;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.list {
+  max-width: 600px;
+}
+
+.list-item {
+  color: #FFF;
+  font-size: 1.2rem;
+  padding: 5px;
+  opacity: 0.7;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  opacity: 1;
+  transform: translateX(10px);
+}
+
+.list-item:hover .list-item-content * {
+  color: #000;
+}
+
+.list-item-content {
+  position: relative;
+  z-index: 9;
+  transition: all 0.3s ease;
+}
+
+.list-item-content a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.list-item-content * {
+  transition: all 0.3s ease;
+}
+
+.list-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #fbff0b;
+  transition: all 0.3s ease;
+}
+
+.list-item:hover::before {
+  width: 100%;
+}
+
