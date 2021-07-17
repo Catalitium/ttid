@@ -123,6 +123,10 @@ body {
     text-decoration: none;
 }
 
+.list-item-content p {
+    font-style: italic;
+}
+
 .list-item-content * {
   transition: all 0.3s ease;
 }
