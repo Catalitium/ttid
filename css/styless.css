@@ -1,0 +1,90 @@
+/*
+ * Author by FreeHTML5.co
+ * Twitter: https://twitter.com/fh5co
+ * Facebook: https://fb.com/fh5co
+ * URL: https://freehtml5.co
+ */
+/* Fonts */
+@font-face {
+  font-family: 'Calisto-MT';
+  src: url(../fonts/Calisto-MT.ttf); }
+
+@font-face {
+  font-family: 'Calisto-MT-Italic';
+  src: url(../fonts/Calisto-MT-Italic.ttf); }
+
+@font-face {
+  font-family: 'Calisto-MT-Bold';
+  src: url(../fonts/Calisto-MT-Bold.ttf); }
+
+/* Colors */
+/* Universal style */
+
+body { 
+  background: url("../images/bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Calisto-MT";
+   }
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-width: 10px;
+  }
+  li img {
+    border-radius: 10px;
+    margin: 15px ;
+  }
+
+  li p {
+      color: azure;
+      padding-left: 30px;
+  }
+
+ section {
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  border-top: 100px;
+  padding-top: 400px;  }
+
+  
+
+  body {
+    background-color: #333;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+  }
+  
+  path {
+    fill: transparent;
+  }
+  
+  text {
+    fill: #FF9800;
+  }
+ 
+  
