@@ -48,13 +48,11 @@
   li img {
     border-radius: 10px;
     margin: 15px ;
-    
-    
   }
 
   li p {
       color: azure;
-      padding-left: 35px;
+      padding-left: 30px;
   }
 
   body{
