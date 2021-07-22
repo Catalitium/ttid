@@ -6,8 +6,6 @@
   /* Colors */
   /* Universal style */
   * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: "Garamond";
     background-color:#cccccc;
@@ -19,7 +17,7 @@
     width: 50%;
     padding: 20px;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 5px;
     line-height: 32px;
    /* Should be removed. Only for demonstration */
   }
@@ -44,16 +42,13 @@
   .columnLeft {
     float: left;
     width: 50%;
-    padding: 20px;
-    line-height: 32px;
+    padding: 90px;
    /* Should be removed. Only for demonstration */
   }
   
   .columnLeft img{
     background-repeat: no-repeat;
-    border-radius: 10px;
-    border-style: solid;
-    border: 5px solid #fed700;
+    border: 5px solid #ffa500;
      /* Should be removed. Only for demonstration */
   }
   
@@ -65,7 +60,7 @@
   }
 
   .button {
-    border: 2.5px solid #e4c202;
+    border: 2.5px solid #ffa500 ;
     border-radius: 10px;
     background-color: #444444;
     padding: 15px 32px;

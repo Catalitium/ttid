@@ -12,18 +12,20 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Garamond"; }
+  font-family: "Garamond";
+ }
 
   .some-page-wrapper {
     margin: 15px;
     background-color: None;
+    background-color: #999999;
   }
   
   .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 155%;
+    width: 200%;
   }
   
   .column {
@@ -31,23 +33,27 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    
   }
   
   .blue-column {
     background-image: url("/images/ttid.jpg");
+    border: 2.5px #fed420 solid;
 
   }
   
   .green-column {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(14, 14, 14);
+    border: 2.5px #fed420 solid;
   }
 
   .blue-column #bg {
     position: fixed; 
-    top: -5%; 
-    left: -5%; 
-    width: 55%; 
+    top: 2.5%; 
+    left: 5%; 
+    width: 45%; 
     height: 100%;
+    border: 2.5px #fed420 solid;
   }
   
   .blue-column  #bg img {
@@ -64,7 +70,7 @@
   
 ul,ol {
   list-style: none;
-  
+
 }
 
 
@@ -74,7 +80,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  background-color: #000;
+  background-color: rgb(14, 14, 14);
 }
 
 .title {
@@ -95,6 +101,7 @@ body {
 .list {
   padding-left: 10px;
   max-width: 600px;
+  border-right: 1px solid #fed420;
 }
 
 .list-item {
@@ -105,7 +112,6 @@ body {
   position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
-  border: 2.5px solid #8d7906;
 }
 
 .list-item:hover {
@@ -121,6 +127,7 @@ body {
   position: relative;
   z-index: 9;
   transition: all 0.3s ease;
+  
 }
 
 .list-item-content a {
@@ -152,3 +159,41 @@ body {
   width: 100%;
 }
 
+ul {
+  border-bottom: 1.5px solid #fed420;
+  overflow: hidden;
+  
+  
+}
+a {
+  text-decoration: none;
+  color: beige;
+  
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  
+}
+li {
+  line-height: 2em;
+  position: relative;
+  font-style: italic;
+  
+}
+li ul {
+  padding-left: 0.25em;
+  border-left: 1px solid #fed420;
+  border-top: 1px solid #fed420;
+  
+}
+li:after {
+  content:"\00A0";
+  position: absolute;
+  width: 200%;
+  left: -100%;
+  top: 0;
+  border: 2px solid #fed420;
+  z-index: -1;
+}

@@ -5,53 +5,59 @@
  * URL: https://freehtml5.co
  */
 /* Fonts */
-@font-face {
-  font-family: 'Calisto-MT';
-  src: url(../fonts/Calisto-MT.ttf); }
+
 
 @font-face {
-  font-family: 'Calisto-MT-Italic';
-  src: url(../fonts/Calisto-MT-Italic.ttf); }
-
-@font-face {
-  font-family: 'Calisto-MT-Bold';
-  src: url(../fonts/Calisto-MT-Bold.ttf); }
+  font-family: 'BATANG';
+  src: url(../fonts/BATANG.ttf); }
 
 /* Colors */
 /* Universal style */
 * {
   margin: 0;
   padding: 0;
-  font-family: "Calisto-MT";
+  font-family: "BATANG";
+  
+   }
+
+   #logo {
+    margin-left: 50px;
+    width: 720px;
+    padding: 70px;
    }
 
    ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+  }
 
-  }
-  
-  li {
-    float: left;
-  }
-  
+   li {
+    display: inline-block;
+    justify-content: space-around;
+   }
+   
   li a {
-    display: block;
-    color: white;
+    color: #ffa500;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     border-width: 10px;
   }
-  li img {
+
+  #ttid {
+    border: 10px #ccc solid;
+    border-radius: 10px;
+    margin: 15px ;
+  }
+
+  #lvs {
+    border: 10px #ccc solid;
     border-radius: 10px;
     margin: 15px ;
   }
 
   li p {
-      color: azure;
+      color: #ffa500 ;
       padding-left: 30px;
   }
 
@@ -68,16 +74,15 @@
   width: 100%;
   height: 500px;
   border-top: 100px;
-  padding-top: 400px;  }
-
-  
+  padding-top: 250px;  }
 
   body {
     background-color: #333;
     font-family: 'Luckiest Guy', cursive;
     font-size: 35px;
   }
-  
+
+
   path {
     fill: transparent;
   }
